@@ -1,7 +1,7 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
-import { CloudSunIcon, ImageIcon, ArrowRight, MapPinIcon, Newspaper } from "lucide-react";
+import { CloudSunIcon, ArrowRight, MapPinIcon, Newspaper, Landmark, Utensils } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 
@@ -9,30 +9,37 @@ const tools = [
     {
         label: "Weather",
         icon: CloudSunIcon,
-        href: "/weather",
+        href: "https://trip-plan-weather.netlify.app/",
         color: "text-cyan-300",
         bgColor: "bg-cyan-300/10"
     },
     {
-        label: "Images",
-        icon: ImageIcon,
-        href: "/image",
+        label: "Attractions",
+        icon: Landmark,
+        href: "/landmark",
         color: "text-lime-300",
         bgColor: "bg-lime-300/10"
     },
     {
         label: "News",
         icon: Newspaper,
-        href: "/news",
+        href: "https://trip-plan-news.netlify.app/",
         color: "text-rose-300",
         bgColor: "bg-rose-300/10"
     },
     {
         label: "Directions",
         icon: MapPinIcon,
-        href: "/music",
+        href: "https://trip-plan-maps.netlify.app/",
         color: "text-blue-300",
         bgColor: "bg-blue-300/10"
+    },
+    {
+        label: "Restaurants",
+        icon: Utensils,
+        href: "/landmark",
+        color: "text-purple-300",
+        bgColor: "bg-purple-300/10"
     },
 ]
 const DashboardPage = () => {

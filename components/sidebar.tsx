@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import {cn} from "@/lib/utils";
-import { CloudSunIcon, ImageIcon, LayoutDashboard, MapPinIcon, Newspaper, Settings } from "lucide-react";
+import { CloudSunIcon, Landmark, LayoutDashboard, Utensils, MapPinIcon, Newspaper, Settings } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 const poppins = Poppins({ weight: "600", subsets: ["latin"]});
@@ -22,10 +22,10 @@ const routes = [
         color: "text-cyan-300",
     },
     {
-        label: "Images",
-        icon: ImageIcon,
-        href: "/images",
-        color: "text-lime-300",
+        label: "Attractions",
+        icon: Landmark,
+        href: "/landmark",
+        color: "text-lime-300"
     },
     {
         label: "News",
@@ -38,6 +38,12 @@ const routes = [
         icon: MapPinIcon,
         href: "/map",
         color: "text-blue-300",
+    },
+    {
+        label: "Restaurants",
+        icon: Utensils,
+        href: "/landmark",
+        color: "text-purple-300"
     },
     {
         label: "Settings",
