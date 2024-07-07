@@ -8,11 +8,6 @@
 
 ## 🚀 Demo
 
-App can be viewed on:
-[Netlify]()
-
-### Video Demo:
-
 [Video Demo](https://drive.google.com/file/d/1w_rqjUq8YJjwBUus1tPQs1wDrEfgpE_t/view?usp=sharing)
 
 <!-- ABOUT THE PROJECT -->
