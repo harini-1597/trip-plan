@@ -18,32 +18,20 @@ const routes = [
     {
         label: "Weather",
         icon: CloudSunIcon,
-        href: "/weather",
+        href: "https://trip-plan-weather.netlify.app/",
         color: "text-cyan-300",
-    },
-    {
-        label: "Attractions",
-        icon: Landmark,
-        href: "/landmark",
-        color: "text-lime-300"
     },
     {
         label: "News",
         icon: Newspaper,
-        href: "/news",
+        href: "https://trip-plan-news.netlify.app/",
         color: "text-rose-300",
     },
     {
         label: "Directions",
         icon: MapPinIcon,
-        href: "/map",
+        href: "https://trip-plan-maps.netlify.app/",
         color: "text-blue-300",
-    },
-    {
-        label: "Restaurants",
-        icon: Utensils,
-        href: "/landmark",
-        color: "text-purple-300"
     },
     {
         label: "Settings",

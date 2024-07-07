@@ -14,13 +14,6 @@ const tools = [
         bgColor: "bg-cyan-300/10"
     },
     {
-        label: "Attractions",
-        icon: Landmark,
-        href: "/landmark",
-        color: "text-lime-300",
-        bgColor: "bg-lime-300/10"
-    },
-    {
         label: "News",
         icon: Newspaper,
         href: "https://trip-plan-news.netlify.app/",
@@ -33,13 +26,6 @@ const tools = [
         href: "https://trip-plan-maps.netlify.app/",
         color: "text-blue-300",
         bgColor: "bg-blue-300/10"
-    },
-    {
-        label: "Restaurants",
-        icon: Utensils,
-        href: "/landmark",
-        color: "text-purple-300",
-        bgColor: "bg-purple-300/10"
     },
 ]
 const DashboardPage = () => {
