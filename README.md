@@ -1,12 +1,18 @@
-<h1 align="center"> 🛫 Trip Plan 🗺️ </h1>
-<br>
-pic
+<div align="center">
+  <h1> 🛫 Trip Plan 🗺️ </h1>
 
+![demo](https://github.com/harini-1597/trip-plan/assets/128628820/6e9849a9-2efe-48b9-ac44-309cfdbc41ab)
+
+</div>
 <!-- DEPLOYMENTS -->
+
 ## 🚀 Demo
 
 App can be viewed on:
-[Netlify](https://tourofjsonschema.netlify.app)
+[Netlify]()
+
+### Video Demo:
+
 
 <!-- ABOUT THE PROJECT -->
 ## 📌 About The Project
