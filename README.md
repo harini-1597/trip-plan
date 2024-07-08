@@ -7,8 +7,9 @@
 <!-- DEPLOYMENTS -->
 
 ## 🚀 Demo
+App can be viewed on: [Vercel](https://trip-plan-main.vercel.app/)
 
-[Video Demo](https://drive.google.com/file/d/1w_rqjUq8YJjwBUus1tPQs1wDrEfgpE_t/view?usp=sharing)
+Check out the: [Video Demo](https://drive.google.com/file/d/1w_rqjUq8YJjwBUus1tPQs1wDrEfgpE_t/view?usp=sharing)
 
 <!-- ABOUT THE PROJECT -->
 ## 📌 About The Project
